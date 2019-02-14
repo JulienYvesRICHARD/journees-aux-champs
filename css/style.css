@@ -1,0 +1,165 @@
+.accordion {margin-top: 2rem; margin-bottom: 4rem;}
+
+.autumn {color: #e96327;}
+.winter {color: #0091c6;}
+.spring {color: #68b546;}
+.summer {color: #ffc849;}
+
+.autumn-bg, .btn-autumn {background-color: #e96327!important; color:#FFFFFF;}
+.winter-bg, .btn-winter {background-color: #0091c6!important; color:#FFFFFF;}
+.spring-bg, .btn-spring {background-color: #68b546!important; color:#FFFFFF;}
+.summer-bg, .btn-summer {background-color: #ffc849!important; color:#FFFFFF;}
+
+.btn-autumn:hover {background-color: #ffc8b0!important; color:#DDDDDD;}
+.btn-winter:hover {background-color: #9dd4e8!important; color:#DDDDDD;}
+.btn-spring:hover {background-color: #b3daa2!important; color:#DDDDDD;}
+.btn-summer:hover {background-color: #ffebbd!important; color:#666666;}
+
+.autumn-bg.card-header.finished {background-color: #CCCCCC!important;}
+.winter-bg.card-header.finished {background-color: #CCCCCC!important;}
+.spring-bg.card-header.finished {background-color: #CCCCCC!important;}
+.summer-bg.card-header.finished {background-color: #CCCCCC!important;}
+
+.winter-kid .b-left{ border-left: 10px solid #0091c6;}
+.spring-kid .b-left{ border-left: 10px solid #68b546;}
+.summer-kid .b-left{ border-left: 10px solid #ffc849;}
+.autumn-kid .b-left{ border-left: 10px solid #e96327;}
+
+.card.season {margin-bottom: 1rem;}
+
+.card-header h5 button.btn-link {color: #ffffff!important;}
+
+.m-0 {margin: 0;}
+.m-t-1 {margin-top: 1rem;}
+.p-t-1 {padding-top: 1rem;}
+.w-10 {width:10%!important}
+.w-20 {width:20%!important}
+
+footer {margin: 0; padding: 1rem; background-color: #333333; text-align:center;}
+footer .light-grey {color: #EEEEEE;}
+footer .light-grey a {color: #999999;}
+footer img {padding: 0.25rem;}
+
+.b-left {
+    margin-bottom: 10px;
+}
+.b-left p {
+    font-size: 11px;
+    margin-bottom: 0.5rem;
+}
+.b-left p span {
+    font-weight: bold;
+    margin:1px;
+    padding: 3px;
+}
+
+.b-left div p span {
+    border-radius : 100%;
+}
+
+.winter-kid .b-left p span {
+    border: 2px solid #0091c6;
+    color: #0091c6;
+
+}
+
+.spring-kid .b-left p span {
+    border: 2px solid #68b546;
+    color: #68b546;
+}
+
+.summer-kid .b-left p span {
+    border: 2px solid #ffc849;
+    color: #ffc849;
+}
+
+.autumn-kid .b-left p span {
+    border: 2px solid #e96327;
+    color: #e96327;
+}
+
+@media all {
+    .btn-GB {
+        background-color: #3C3C3B;
+        color: white;
+        width: 100%;
+        font-size: 10px;
+        transition: all 1s;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -o-transition: all 1s; 
+    }
+    
+    .btn-GB:hover{
+        background-color: white;
+        border: 1px solid #3C3C3B;
+        color: #3C3C3B;
+    }
+
+    .cookies {
+        padding: 15px 50px;
+        display: none;
+        background-color: white;
+        bottom: 0px;
+        border-top: 2px solid rgb(68, 68, 68);
+        position: fixed;
+    }
+
+    .cookies div div {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .col-titre {
+        vertical-align: middle;
+    }
+
+}
+
+@media all and (max-width: 720px) {
+    .btn-GB {
+        background-color: #3C3C3B;
+        color: white;
+        width: 90%;
+        font-size: 8px;
+        transition: all 1s;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -o-transition: all 1s; 
+    }
+    
+    .btn-GB:hover{
+        background-color: white;
+        border: 1px solid #3C3C3B;
+        color: #3C3C3B;
+    }
+
+    .responsive {
+        width: 50%;
+    }
+
+    .cookies {
+        padding: 0px 10px;
+        display: none;
+        background-color: white;
+        bottom: 0px;
+        border-top: 1px solid rgb(68, 68, 68);
+        position: fixed;
+    }
+
+    .cookies div div {
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+
+    table {
+        font-size: 0.5rem;
+    }
+
+    .col-titre {
+        vertical-align: middle;
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+    }
+}
+
