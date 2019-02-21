@@ -125,6 +125,14 @@ img {
     list-style-type: circle;
 }
 
+.title td img {
+    width: 20px;
+    height: 20px;
+    display: inline;
+    margin-top: -10%;
+    margin-right: 5%;
+}
+
 @media all {
     .btn-GB {
         background-color: #8cc63f;
