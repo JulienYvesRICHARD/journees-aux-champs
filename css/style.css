@@ -176,6 +176,12 @@ img {
     .title td div {
         margin-left: 25%;
     }
+
+    /*
+    .title span {
+        display: inline-block;
+        transform: scaleX(-1); 
+    }*/
 }
 
 @media all and (max-width: 720px) {
