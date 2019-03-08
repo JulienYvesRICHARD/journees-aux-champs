@@ -75,6 +75,7 @@ img {
     background-position: center;
     box-shadow: 4px 4px 5px #8cc63f;
     min-height: 500px;
+    margin-top: -5%;
 }
 
 .imgBanner .title {
@@ -131,6 +132,10 @@ img {
     margin-top: -10%;
     margin-right: 5%;
     display: inline;
+}
+
+#projet img {
+    width: 100%;
 }
 
 @media all {
